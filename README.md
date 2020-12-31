@@ -1,12 +1,16 @@
 # aws-cdk-example-deployment-js
-A javascript example of using aws cdk to deploy multiple docker containers, this is shameless porting of Jeff Bryner's [great python example](https://github.com/jeffbryner/aws-cdk-example-deployment) - thank you Jeff!
+A javascript example of using aws cdk to deploy multiple docker containers that are able to communicate with each other, this is shameless porting of Jeff Bryner's [great python example](https://github.com/jeffbryner/aws-cdk-example-deployment) - please read his detailed article [here](https://blog.jeffbryner.com/2020/07/20/aws-cdk-docker-explorations.html) - thanks Jeff, you saved me many hours!
 
+## assumptions
+- you have git installed
+- you have nodejs and npm installed
+- you have the latest cdk installed
 
 ## to make it go
 
 ```bash
 
-git clone https://github.com/jeffbryner/aws-cdk-example-deployment-js.git
+git clone https://github.com/team-tenacious/aws-cdk-example-deployment-js.git
 cd aws-cdk-example-deployment-js
 npm i
 
